@@ -17,7 +17,7 @@ function summer(){
   svh.innerText = "Vegetables in Summer:";
   svp.innerText = "Cucumber,Tomatoes,Bottle gourds,snake gourds,bitter gourds,green beans,corn,egg plant(bringal),okra(lady finger).";
   sfh.innerText="Fruits in Summer:";
-  sfp.innerText="Mangoes,Watermelon,Muskmelon(karbuja),Grapes, Papayas,Pineapple,Litchis, Jackfruit,Plums.";
+  sfp.innerText="Mangoes,Watermelon, Muskmelon(karbuja), Grapes, Papayas, Pineapple, Litchis, Jackfruit, Plums.";
   sah.innerText ="Ayurveda Recommends :";
   sap.innerText ="During the hot summer months, Ayurveda recommends eating cooling and hydrating foods such as watermelon,cucumber, coconut water, mint, coriander, fennel, and cilantro. These foods can help to balance the Pitta dosha,which tends to become aggravated during the summer.";
 }
