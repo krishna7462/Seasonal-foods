@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend module 3 contest 2</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seasonal Foods</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2718/2718368.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="fetchDataButton">Fetch Data</button>
-    <div class="container">
-        <table id="data-table">
-            <thead>
-              <tr>
-                <th>API 1</th>
-                <th>API 2</th>
-                <th>API 3</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+  <!--know about foods acc to season-->
+  <div class ="subject"><b>The Foods need to be taken according to Seasonal changes</b></div>
+  <!--season names in india-->
+  <div class="head_block1"><p>Seasons in <b>INDIA</b> are Spring,Summer,Monsoon,Autumn/fall,Pre-winter,Winter<br>These are characterized into Summer,Monsoon,Winter(retrating and  advance)
+                            </p>
+    <button onclick="showmore()">Click to show more<br>about Seaons</button></div>
+  <!--seasons button-->
+  <div class ="head_block2">
+    <div id ="season_button">
+   <div id="matterS">
+    <button id = "summer" onclick="summer()"><h3>Know about SUMMER Season foods</h3><p>mid-Mar~Apr~May~mid-june</p></button>
+   </div>
+    <button id ="monsoon" onclick="monsoon()"><h3>Know about MONSOON Season foods</h3><p>mid-jun~july~Aug~sep~mid-oct</p></button>
+   <button id ="winter" onclick="winter()"><h3>Know about WINTER Season foods</h3><p>mid-oct~nov~dec~jan~feb~mid-mar</p></button>
     </div>
-    <script src="script.js"></script>
+    <div id ="matter">
+      <div id ="vegetables">
+        <h3 id="vegh3"></h3>
+        <p id="vegp"></p>
+      </div>
+      <div id="fruits">
+        <h3 id="fruh3"></h3>
+        <p id ="frup"></p>
+      </div>
+      <div id="ayur">
+        <h3 id="ayurh3"></h3>
+        <p id ="ayurp"></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
