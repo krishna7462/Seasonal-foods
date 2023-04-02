@@ -24,6 +24,8 @@ body{
     border-radius: 10px;
     background-color: rgb(16, 99, 71);
     color: rgb(180, 233, 180);
+    text-align: center;
+    padding-left:3px;
 }
 .head_block1>button{
 margin:10px;
