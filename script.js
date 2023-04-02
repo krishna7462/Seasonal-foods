@@ -53,4 +53,4 @@ function winter(){
   wfp.innerText="Oranges, guavas, pomegranates, strawberries, and kiwis.";
   wah.innerText ="Ayurveda Recommends :";
   wap.innerText ="During the cold winter months, Ayurveda recommends eating warming and grounding foods such as root vegetables (carrots, beets, sweet potatoes), soups and stews, nuts, and warming spices like cinnamon, cardamom, and cloves. These foods can help to balance the Kapha dosha, which tends to become aggravated during the winter."
-}
+} 
