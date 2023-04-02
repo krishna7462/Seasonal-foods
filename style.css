@@ -1,28 +1,119 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background-color: rgb(248, 157, 72);
 }
-
-#fetchDataButton {
-    display: block;
-    padding: 7px 15px;
-    margin: 10px auto;
-}
-.container {
-    padding: 0 15px;
-}
-table, th, td {
-    border: 1px solid black;
-}
-td {
+.subject{
+    border:none;
+    background-color: rgb(180, 233, 180);
+    border-radius: 10px;
+    padding :10px;
     text-align: center;
+    color:rgb(15, 70, 15);
+   
 }
-td:first-child {
-    text-align: start;
+@media  only screen and (max-width:768px) {
+    .subject{
+       display: flex;
+       justify-content:space-around;
+    }
+}
+.head_block1{
+    margin-top:3px;
+    display:flex;
+    justify-content: center;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(16, 99, 71);
+    color: rgb(180, 233, 180);
+}
+.head_block1>button{
+margin:10px;
+border:none;
+border-radius: 15px;
+background-color:rgb(106, 106, 247);
+color:greenyellow;
+cursor: pointer;
+}
+.head_block1>button:hover{
+    margin:6px;
+    background-color: rgb(6, 6, 119);
+    border-radius: 7px;
+    transition: 0.3s;
+    color:whitesmoke;
+    font-size: 16px;
+}
+#season_button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+@media  only screen and (max-width:768px) {
+    #season_button{
+        flex-direction: column;
+        align-content: space-around;
+        row-gap: 3px;
+        overflow-x:scroll;
+        overflow-y: scroll;
+    }
+}
+#season_button button{
+    border-radius: 10px;
+}
+#season_button button:hover{
+   cursor: pointer;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+#summer{
+    background-color: tomato;
+    width:100%;
 }
+#monsoon{
+background-color: aqua;
+}
+#winter{
+background-color: blue;
+color: aquamarine;
+}
+h1{
+    color: blueviolet;
+}
+.disp{
+    margin:4px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border:none;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+.disp h3{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 6px;
+}
+.disp p{
+  color:blueviolet;
+  padding:0px;
+  margin:0px;
+  margin-left: 10px;
+}
+#vegh3{
+    margin-top: 5px;
+    text-decoration-line: underline;
+    color: rgb(35, 160, 35);
+}
+#fruh3{
+    text-decoration-line: underline;
+    color:rgb(207, 137, 6);
+}
+#ayurh3{
+    text-decoration-line: underline;
+    color: rgb(21, 80, 21);
+}
+.dis{
+    background-color: aliceblue;
+    padding: 10px;
+    
+}
+
+
+
+
