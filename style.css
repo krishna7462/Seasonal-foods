@@ -69,7 +69,7 @@ cursor: pointer;
 #summer{
     background-image:url(https://img.jagranjosh.com/imported/images/E/Others/Summer-season-2019.jpg);
     background-image: 300px 60px;
-    -webkit-text-stroke: 1px rgb(15, 22, 61);
+    -webkit-text-stroke: 3px rgb(15, 22, 61);
   width:100%;
 }
 #monsoon{
